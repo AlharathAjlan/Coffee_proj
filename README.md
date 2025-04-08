@@ -7,7 +7,7 @@ This repository contains two different coffee shop website implementations with 
 ### 1. Coffee-website-proj2
 A modern, responsive coffee shop website with elegant styling and print-friendly features.
 
-![Coffee-website-proj2 Screenshot](coffee-proj-No-2-index-html.png)
+![Coffee-website-proj2 Screenshot](coffee-proj-No-2-index-htm.png)
 
 ### 2. coffee-website
 An alternative implementation with additional JavaScript functionality and modular CSS structure.
