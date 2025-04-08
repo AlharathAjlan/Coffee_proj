@@ -46,6 +46,8 @@ coffee-website/
 - **Modern UI**: Clean, elegant design with smooth transitions
 - **Interactive Elements**: Hover effects and animations
 - **Beautiful Typography**: Uses Playfair Display for headings
+- **CSS Animations**: Fade-in effects for header elements
+- **Card Hover Effects**: Product cards with scale and shadow transitions
 
 ### coffee-website
 - **Modular CSS**: Organized styles in separate files
@@ -60,12 +62,24 @@ coffee-website/
 - Primary Color: `#312e2e` (Dark gray)
 - Background: `#100e0f` (Almost black)
 - Text: White and various grays
+- Accent Color: `#e67e22` (Orange)
+
+### CSS Variables
+The project uses CSS variables for consistent styling:
+- `--main-color`: Golden brown for primary elements
+- `--primary-color`: Dark gray for backgrounds
+- `--accent-color`: Orange for hover states
+- `--text-light`: Light text color
+- `--text-dark`: Dark text color
+- `--shadow`: Box shadow for elements
+- `--transition`: Standard transition timing
 
 ### Responsive Breakpoints
 - Desktop: > 1024px
 - Tablet: 768px - 1024px
 - Mobile: < 768px
 - Small Mobile: < 480px
+- Extra Small: < 320px
 
 ### Print Styles
 The Coffee-website-proj2 includes special print styles that activate when printing:
@@ -93,35 +107,40 @@ The Coffee-website-proj2 includes special print styles that activate when printi
    - Responsive text
 
 4. **Coffee Section**
-   - Product showcase
-   - Responsive grid
-   - Image hover effects
+   - Two-column layout on desktop
+   - Single column on mobile
+   - Image with hover scale effect
+   - Responsive text sizing
 
 5. **Products**
-   - Card-based layout
-   - Price display
-   - Hover animations
+   - Card-based layout with hover effects
+   - Price display with brand color
+   - Image hover animations
+   - Responsive grid system
 
 6. **Contact Form**
-   - Clean input fields
+   - Clean input fields with focus effects
    - Responsive layout
-   - Form validation
+   - Full-width submit button
+   - Form validation styling
 
 7. **Footer**
-   - Responsive grid
-   - Brand colors
-   - Hover effects
+   - Three-column responsive grid
+   - Brand colors with accent spans
+   - Hover effects on containers
+   - Copyright information
 
 ## Usage
 
 ### Viewing the Websites
 1. Open `index.html` in a web browser for either project
 2. The websites will automatically adapt to your screen size
+3. Test the responsive navigation by resizing your browser window
 
-### Printing (Coffee-website-proj2)
-1. Use browser's print function (Ctrl+P or Cmd+P)
-2. The print styles will automatically activate
-3. The layout will optimize for paper
+### Mobile Navigation
+1. On mobile devices or narrow browser windows, the navigation collapses to a hamburger menu
+2. Click the hamburger icon to expand the menu
+3. The menu items have smooth transitions and hover effects
 
 ## Browser Support
 
@@ -134,40 +153,44 @@ The Coffee-website-proj2 includes special print styles that activate when printi
 ## Responsive Features
 
 ### Desktop (>1024px)
-- Full layout
+- Full layout with maximum spacing
 - Maximum image sizes
 - Original font sizes
+- Multi-column layouts
 
 ### Tablet (768px - 1024px)
 - Adjusted image sizes
 - Reduced font sizes
-- Modified layouts
+- Modified layouts with appropriate spacing
+- Maintained multi-column structure
 
 ### Mobile (<768px)
 - Single column layout
 - Smaller images
 - Stacked elements
 - Adjusted spacing
+- Hamburger menu navigation
 
 ### Small Mobile (<480px)
 - Minimal padding
 - Smallest font sizes
 - Optimized for very small screens
+- Simplified layouts
 
-## Print Optimization (Coffee-website-proj2)
-
-When printing, the website:
-- Removes navigation and buttons
-- Adjusts colors for better printing
-- Adds page breaks at logical points
-- Maintains brand identity
-- Optimizes images for paper
-- Adds print-specific elements
+### Extra Small (<320px)
+- Further reduced font sizes
+- Minimal spacing
+- Optimized for the smallest mobile screens
 
 ## Development
 
 ### Coffee-website-proj2
-This project uses a single CSS file approach with media queries for responsiveness and print styles.
+This project uses a single CSS file approach with:
+- CSS variables for consistent styling
+- Media queries for responsiveness
+- Animations and transitions
+- Mobile-first responsive design
+- Hamburger menu for mobile navigation
 
 ### coffee-website
 This project uses a modular approach with separate CSS files and JavaScript for enhanced functionality.
@@ -186,6 +209,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgments
 
-- Google Fonts for Playfair Display
+- Google Fonts for Playfair Display and Poppins
 - Images from various sources
 - Inspiration from coffee shop websites and design trends 
