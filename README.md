@@ -5,7 +5,7 @@ This repository contains two different coffee shop website implementations with 
 ## Project Overview
 
 ### 1. Coffee-website-proj2
-A modern, responsive coffee shop website with elegant styling and print-friendly features.
+A modern, responsive coffee shop website with elegant styling, animations, and a mobile-friendly hamburger menu.
 
 ![Coffee-website-proj2 Screenshot](coffee-proj-No-2-index-html.png)
 
@@ -19,8 +19,8 @@ An alternative implementation with additional JavaScript functionality and modul
 ### Coffee-website-proj2
 ```
 Coffee-website-proj2/
-├── index.html          # Main HTML file
-├── style.css           # Main stylesheet (11KB)
+├── index.html          # Main HTML file with responsive navigation
+├── style.css           # Main stylesheet with animations and responsive design
 ├── bachground.png      # Header background image (2.1MB)
 ├── 2(1).png            # About section image (1.8MB)
 ├── Espresso1.png       # Product image 1 (146KB)
@@ -42,7 +42,7 @@ coffee-website/
 
 ### Coffee-website-proj2
 - **Responsive Design**: Adapts to all screen sizes (desktop, tablet, mobile)
-- **Print-Friendly**: Optimized for printing menus and content
+- **Hamburger Menu**: Mobile-friendly navigation with smooth transitions
 - **Modern UI**: Clean, elegant design with smooth transitions
 - **Interactive Elements**: Hover effects and animations
 - **Beautiful Typography**: Uses Playfair Display for headings
@@ -81,30 +81,33 @@ The project uses CSS variables for consistent styling:
 - Small Mobile: < 480px
 - Extra Small: < 320px
 
-### Print Styles
-The Coffee-website-proj2 includes special print styles that activate when printing:
-- Removes unnecessary elements (nav, buttons)
-- Optimizes layout for paper
-- Adds print-specific elements (prices, subtitles)
-- Maintains brand colors and typography
-- Ensures proper page breaks
+### Animations
+The website includes several animations:
+- Fade-in effects for header elements
+- Scale transitions for images on hover
+- Smooth transitions for navigation elements
+- Card hover animations with shadow effects
+- Button hover effects with color changes
 
 ## Sections (Coffee-website-proj2)
 
 1. **Navigation**
-   - Fixed position
-   - Responsive menu
-   - Hover effects
+   - Fixed position with backdrop filter
+   - Responsive hamburger menu for mobile
+   - Smooth transitions for menu items
+   - Underline hover effects
 
 2. **Header**
-   - Full-screen background
-   - Main heading
-   - Call-to-action button
+   - Full-screen background with overlay
+   - Animated headings with fade-in effects
+   - Call-to-action button with hover animation
+   - Responsive text sizing
 
 3. **Our Story**
-   - Image with hover effect
-   - Decorative line
-   - Responsive text
+   - Circular image with hover effect
+   - Decorative line element
+   - Responsive text layout
+   - Button with hover animation
 
 4. **Coffee Section**
    - Two-column layout on desktop
@@ -211,4 +214,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - Google Fonts for Playfair Display and Poppins
 - Images from various sources
-- Inspiration from coffee shop websites and design trends 
+- Inspiration from coffee shop websites and design trends
